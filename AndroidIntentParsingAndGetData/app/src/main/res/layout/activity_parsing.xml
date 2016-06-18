@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextViewNIS"
+        android:id="@+id/txtNIS" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextViewNama"
+        android:id="@+id/txtNama" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextViewJK"
+        android:id="@+id/txtJK" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextViewAlamat"
+        android:id="@+id/txtAlamat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextViewMatkul"
+        android:id="@+id/txtMatkul" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HITUNG LUAS SEGITIGA"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAlas"
+        android:hint="Masukan Alas" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTinggi"
+        android:hint="Masukan Tinggi" />
+
+    <Button
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Segitiga"
+        android:id="@+id/cmdHitung"
+        android:onClick="hitungLuas"/>
+</LinearLayout>
